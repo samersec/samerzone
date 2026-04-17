@@ -9,7 +9,7 @@ Hey there! , My name is Samer and I'm a 2nd-year Engineering student in **Big Da
 
 ## Contacts:
 
-- CV: [Samer Soltani CV](/static/Samer_Soltani.pdf)
+- CV: <a href="/static/Samer_Soltani.pdf" target="_blank" rel="noopener noreferrer">Samer Soltani CV</a>
 - Email: [samersoltani02@gmail.com](mailto:samersoltani02@gmail.com)↗
 - Github: [samersec](https://github.com/samersec)↗
 - LinkedIn: [Samer Soltani](https://www.linkedin.com/in/samer-soltani-b833981ba/)↗
