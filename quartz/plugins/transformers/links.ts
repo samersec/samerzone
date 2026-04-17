@@ -4,6 +4,8 @@ import {
   RelativeURL,
   SimpleSlug,
   TransformOptions,
+  getFileExtension,
+  isFolderPath,
   stripSlashes,
   simplifySlug,
   splitAnchor,
@@ -123,6 +125,19 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
                   const simple = simplifySlug(full)
                   outgoing.add(simple)
                   node.properties["data-slug"] = full
+
+                  // GitHub Pages doesn't rewrite extensionless routes to .html files.
+                  // Preserve folders and explicit file extensions (e.g. .pdf), and only
+                  // suffix plain internal page links.
+                  if (node.tagName === "a") {
+                    const [href, anchor] = splitAnchor(dest)
+                    const hasExt = getFileExtension(href) !== undefined
+                    const isDotPath = href === "." || href === ".."
+                    if (!isFolderPath(href) && !hasExt && !isDotPath) {
+                      dest = `${href}.html${anchor}` as RelativeURL
+                      node.properties.href = dest
+                    }
+                  }
                 }
 
                 // rewrite link internals if prettylinks is on
