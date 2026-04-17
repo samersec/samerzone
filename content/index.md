@@ -9,7 +9,7 @@ Hey there! , My name is Samer and I'm a 2nd-year Engineering student in **Big Da
 
 ## Contacts:
 
-- CV: [Samer Soltani CV](/static/Samer_Soltani_cv.pdf)
+- CV: [Samer Soltani CV](/static/Samer_Soltani.pdf)
 - Email: [samersoltani02@gmail.com](mailto:samersoltani02@gmail.com)↗
 - Github: [samersec](https://github.com/samersec)↗
 - LinkedIn: [Samer Soltani](https://www.linkedin.com/in/samer-soltani-b833981ba/)↗
@@ -17,6 +17,11 @@ Hey there! , My name is Samer and I'm a 2nd-year Engineering student in **Big Da
 
 ## Projects:
 
+- **[[CityScape|CityScape — Full-Stack Semantic Segmentation Web App]]**
+    - DeepLabV3 + ResNet-50 trained on Cityscapes dataset (34 classes)
+    - Real-time semantic segmentation REST API with FastAPI
+    - React + Vite frontend with drag-and-drop upload and live visualization
+    - MLflow experiment tracking, full Docker containerization
 - **[[Big-Data-Pipeline|Pipeline Big Data End-to-End]]**
     - NYC Taxi Trips dataset on Cloudera CDH
     - Real-time streaming with Apache Kafka
@@ -73,15 +78,4 @@ Hey there! , My name is Samer and I'm a 2nd-year Engineering student in **Big Da
 
 ---
 
-## Languages:
 
-- **Arabic:** Native
-- **French:** B2
-- **English:** B2
-
----
-
-## Activities:
-
-- Treasurer of **Google Club** — Polytech Intl
-- Certification: **Version Control with Git** — Atlassian
