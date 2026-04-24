@@ -34,6 +34,10 @@ Design and deployment of a massive data pipeline on Cloudera CDH:
 - Hadoop CDH
 - Linux
 
+### Resources
+
+- **GitHub Repository:** [samersec/nyc-taxi-bigdata-pipeline](https://github.com/samersec/nyc-taxi-bigdata-pipeline.git)
+
 ### What I learned
 
 - Designing end-to-end Big Data pipelines

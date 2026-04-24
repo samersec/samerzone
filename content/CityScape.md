@@ -13,15 +13,15 @@ tags:
 
 ## CityScape — Full-Stack Semantic Segmentation Web App
 
-A full-stack AI web application performing real-time semantic segmentation on urban street images .
+A full-stack AI web application performing real-time semantic segmentation on urban street images.
 
 ### Project Overview
 
-Built an end-to-end AI application that performs real-time semantic segmentation on urban street images using **DeepLabV3 + ResNet-50** trained on the Cityscapes dataset with 34 classes. The project combines a high-performance PyTorch backend, a modern React frontend, experiment tracking, and complete containerization.
+Built an end-to-end AI application that performs real-time semantic segmentation on urban street images using **DeepLabV3+ with EfficientNet-B3** encoder trained on the Cityscapes dataset. The project combines a high-performance PyTorch backend, a modern React frontend, experiment tracking, and complete containerization.
 
 ### Key Achievements
 
-- **Model Performance:** Trained DeepLabV3 + ResNet-50 on the Cityscapes dataset achieving **25.6% mIoU** and **0.308 Dice score** over 20 epochs
+- **Model Performance:** Trained DeepLabV3+ with EfficientNet-B3 encoder on the Cityscapes dataset achieving **51.3% mIoU** and **85.1% pixel accuracy** over 40 epochs
 - **Backend:** Built a REST API with FastAPI serving real-time segmentation inference with per-class coverage percentages
 - **Frontend:** Developed a React + Vite interface with drag-and-drop image upload and live result visualization
 - **Experiment Tracking:** Tracked all experiments, metrics, and artifacts using MLflow
@@ -36,12 +36,12 @@ Built an end-to-end AI application that performs real-time semantic segmentation
 
 ### Tech Stack
 
-- **Deep Learning:** PyTorch, DeepLabV3, ResNet-50
+- **Deep Learning:** PyTorch, DeepLabV3+, EfficientNet-B3
 - **Backend:** Python, FastAPI
 - **Frontend:** React, Vite, TypeScript
 - **Experiment Tracking:** MLflow
 - **Deployment:** Docker, Docker Compose
-- **Dataset:** Cityscapes (34 semantic classes)
+- **Dataset:** Cityscapes Image Pairs (19 semantic classes)
 
 ### What I learned
 
