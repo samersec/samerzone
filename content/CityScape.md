@@ -17,15 +17,15 @@ A full-stack AI web application performing real-time semantic segmentation on ur
 
 ### Project Overview
 
-Built an end-to-end AI application that performs real-time semantic segmentation on urban street images using **DeepLabV3+ with EfficientNet-B3** encoder trained on the Cityscapes dataset. The project combines a high-performance PyTorch backend, a modern React frontend, experiment tracking, and complete containerization.
+Built an end-to-end AI application that performs real-time semantic segmentation on urban street images using **DeepLabV3 + ResNet-50** trained on the Cityscapes dataset with 34 semantic classes. The project combines a high-performance PyTorch backend, a modern React frontend, experiment tracking, and complete containerization.
 
 ### Key Achievements
 
-- **Model Performance:** Trained DeepLabV3+ with EfficientNet-B3 encoder on the Cityscapes dataset achieving **51.3% mIoU** and **85.1% pixel accuracy** over 40 epochs
-- **Backend:** Built a REST API with FastAPI serving real-time segmentation inference with per-class coverage percentages
-- **Frontend:** Developed a React + Vite interface with drag-and-drop image upload and live result visualization
-- **Experiment Tracking:** Tracked all experiments, metrics, and artifacts using MLflow
-- **Deployment:** Containerized the full stack (backend, frontend, MLflow) with Docker Compose
+- **Model:** DeepLabV3 + ResNet-50 trained on the Cityscapes dataset (34 classes)
+- **Backend:** Real-time semantic segmentation REST API with FastAPI serving per-class coverage percentages
+- **Frontend:** React + Vite interface with drag-and-drop image upload and live result visualization
+- **Experiment Tracking:** MLflow experiment tracking with full artifact and metrics logging
+- **Deployment:** Full Docker containerization with Docker Compose (backend, frontend, MLflow)
 
 ### Gallery
 
@@ -36,12 +36,12 @@ Built an end-to-end AI application that performs real-time semantic segmentation
 
 ### Tech Stack
 
-- **Deep Learning:** PyTorch, DeepLabV3+, EfficientNet-B3
+- **Deep Learning:** PyTorch, DeepLabV3, ResNet-50
 - **Backend:** Python, FastAPI
 - **Frontend:** React, Vite, TypeScript
 - **Experiment Tracking:** MLflow
 - **Deployment:** Docker, Docker Compose
-- **Dataset:** Cityscapes Image Pairs (19 semantic classes)
+- **Dataset:** Cityscapes (34 semantic classes)
 
 ### What I learned
 
