@@ -9,7 +9,7 @@ Hey there! , My name is Samer and I'm a 2nd-year Engineering student in **Big Da
 
 ## Contacts:
 
-- CV: <a href="/static/Samer_Soltani.pdf" target="_blank" rel="noopener noreferrer">Samer Soltani CV</a>
+- CV: <a href="static/Samer_Soltani_CV_E.pdf" target="_blank" rel="noopener noreferrer">Samer Soltani CV</a>
 - Email: [samersoltani02@gmail.com](mailto:samersoltani02@gmail.com)↗
 - Github: [samersec](https://github.com/samersec)↗
 - LinkedIn: [Samer Soltani](https://www.linkedin.com/in/samer-soltani-b833981ba/)↗
@@ -18,23 +18,23 @@ Hey there! , My name is Samer and I'm a 2nd-year Engineering student in **Big Da
 ## Projects:
 
 - **[[CityScape|CityScape — Full-Stack Semantic Segmentation Web App]]**
-    - DeepLabV3 + ResNet-50 trained on Cityscapes dataset (34 classes)
-    - Real-time semantic segmentation REST API with FastAPI
+    - DeepLabV3+ with EfficientNet-B3 encoder on Cityscapes (19 classes)
+    - FastAPI REST API for real-time segmentation and per-class coverage
     - React + Vite frontend with drag-and-drop upload and live visualization
-    - MLflow experiment tracking, full Docker containerization
+    - Full Docker Compose deployment for backend and frontend services
 - **[[Big-Data-Pipeline|Pipeline Big Data End-to-End]]**
-    - NYC Taxi Trips dataset on Cloudera CDH
-    - Real-time streaming with Apache Kafka
-    - Batch transfer MySQL → HDFS via Sqoop
-    - Log ingestion via Flume
-    - Distributed storage HDFS, ZooKeeper orchestration, Hadoop processing
+    - NYC Taxi Trips pipeline deployed on Cloudera CDH
+    - Real-time streaming with Apache Kafka and log ingestion via Flume
+    - Batch transfer from MySQL to HDFS using Sqoop
+    - Distributed storage on HDFS with ZooKeeper orchestration
+    - Processing with the Hadoop ecosystem
 - **[[Hospital-Management|Gestion Des Services Hospitaliers]]** — [Live Demo](https://gestion-des-services-hospitalier-fr.vercel.app/login)↗
     - Complete hospital service management platform
     - Appointments, medical records, pharmacy inventory, donations
     - Tech: React, TypeScript, Tailwind CSS, Vite, Spring Boot, MongoDB
 - **[[DEWINI|DEWINI — Medical Data Platform]]**
     - 🏆 **1st Prize — Hackathon 1.0: From Idea to Startup** (March 2025)
-    - AI-powered medical data management solution
+    - Project idea born from the hackathon, then developed in enterprise at Dream Tek Consulting
     - Spring Boot (Java), MySQL, REST API, MVC architecture
 - **[[Dashboard-Beem|Dashboard Beem — BI Smart Taxi]]**
     - Multi-role BI dashboard (admin, driver, client)

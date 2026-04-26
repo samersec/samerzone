@@ -12,7 +12,9 @@ tags:
 
 > 🏆 **1st Prize — Hackathon 1.0: From Idea to Startup** (March 2025)
 
-A healthcare web platform connecting doctors and patients, built during an engineering internship at **Dream Tek Consulting** (2025).
+A healthcare web platform connecting doctors and patients.
+
+The idea for this project came from winning Hackathon 1.0, and we later developed it into a real enterprise application during an engineering internship at **Dream Tek Consulting** (2025).
 
 ### Features
 
